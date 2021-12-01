@@ -1,6 +1,6 @@
 * {
     font-family: 'Roboto', sans-serif;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
 }
 
 body  {
@@ -22,6 +22,10 @@ ul {
 
 h1 {
     margin-top: 0;
+}
+
+section {
+    height: 400px;
 }
 
 .container {
@@ -47,6 +51,8 @@ header {
     margin: 0px;
 }
 
+
+
 .header__content {
     display: flex;
     justify-content: space-between;
@@ -57,6 +63,7 @@ header {
 
 .logo {
     height: 50px;
+    width: auto;
 }
 
 .select__button {
@@ -73,7 +80,12 @@ header {
     display:flex;
 }
 
+#top-bg {
+    background-color: #1f2937;
+}
+
 .element_top_align {
+    
     height: 400px;
     display: flex;
     align-items: center;
@@ -82,7 +94,7 @@ header {
 .content.top {
     display: flex;
     height: 300px;
-
+    align-items: center;
     justify-content: space-between;
     
 
@@ -91,34 +103,171 @@ header {
 
 
 .text__top {
+    color: white;
     display: flex;
-   
     flex-direction: column;
     flex-wrap: wrap;
     flex-basis: 50%;
+    padding-right: 40px;
+
     
 }
 
+.img__top-container {
+    display: flex;
+    justify-content: center;
+    width:50%;
+}
 
 .img__top {
-    display: flex;
-    width: 50%;
-   
-
-   
-    
-    
+    display: block;
+    width: 400px;
     
 }
 
-/*next another div box again so it will fit in the content*/
+
 
 .photorice {
-    object-fit: cover;
-    margin: 0px;
-    
+    max-width: 100%;
+    max-height: 100%;
 
 }
 
+/* Some Random Information */
+
+.content.photo {
+    height: 475px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imgtext_photo {
+    width: 80%;
+    display: center;
+    
+}
+
+.photo_and_text {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 25px;
+    
+}
+
+.photo_and_text li {
+    width: 150px;
+
+}
+
+.photo_and_text li p {
+    text-align: center;
+}
+
+.imgmini {
+    border: 3px solid #3882f6;
+    height: 150px;
+    width: 150px;
+}
+
+
+/*Quote*/
+
+.bg__quote {
+    background-color: rgba(0,0,0,0.1);
+    margin-top: 75px;
+}
+   
+
+.bg__quote .element__width {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content.quote {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+blockquote {
+    padding: 0;
+    margin: 0;
+    font-weight: light;
+    font-style: italic;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.quote p {
+    font-weight: bold;
+    font-size: 20px;
+    align-self: flex-end;
+}
+
+
+/*sign Up*/
+
+.sign {
+    height: 250px;
+    
+    
+}
+
+.content.sign_up {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3882f6;
+    width: 80%;
+    color: white;
+}
+
+
+.sign .element__width {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h3 {
+    margin-bottom: 0;
+}
+
+.text__bot p {
+    margin-top: 0px;
+}
+
+.button__container {
+    align-self: center;
+    
+}
+
+.button__bot {
+    border: 2px solid white;
+    padding: 5px 10px;
+    background-color: #3882f6;
+    color: white;
+}
 
 /*Footer*/
+
+.footer {
+    height: 80px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.footer p {
+    display: flex;
+    align-items: center;
+    color: white;
+}
